@@ -15,16 +15,32 @@ public class Principal {
      */
     public static void main(String[] args) {
         //Clase Cliente
-        var cliente = new Cliente();
-        cliente.nombres= "Rosa Flores";
-        cliente.direccion="General Torres y Santa Teresita";
+        var cliente1 = new Cliente();
+        cliente1.nombres= "Rosa Flores";
+        cliente1.direccion="General Torres y Santa Teresita";
+        cliente1.numeroCedula="0110256489";
+        cliente1.fechaCompra="01/04/2022";
         
-        System.out.println("Los nombres del Cliente son: "+cliente.nombres);
-        System.out.println("La direccion del cliente es: "+cliente.direccion);
+        var cliente2 = new Cliente();
+        cliente2.nombres= "Jorge Ayora";
+        cliente2.direccion="Entique Segobiano";
+        cliente2.numeroCedula="0132569845";
+        cliente2.fechaCompra="21/08/2020";
+        
+        System.out.println("Los nombres del Cliente son: "+cliente1.nombres);
+        System.out.println("La direccion del cliente es: "+cliente1.direccion);
+        System.out.println("El numero de cedula es :"+cliente1.numeroCedula);
+        System.out.println("La fecha de compra es :"+cliente1.fechaCompra);
         System.out.println("");
         
-        //Clase Electrodomesticos
-        var electrodomesticos = new Electrodomesticos();
+        System.out.println("Los nombres del Cliente son: "+cliente2.nombres);
+        System.out.println("La direccion del cliente es: "+cliente2.direccion);
+        System.out.println("El numero de cedula es :"+cliente2.numeroCedula);
+        System.out.println("La fecha de compra es :"+cliente2.fechaCompra);
+        System.out.println("");
+        
+        //Clase Electrodomestico
+        var electrodomesticos = new Electrodomestico();
         electrodomesticos.marca="Indurama";
         electrodomesticos.modelo="Regrigeradora RI-385/12 pies ";
         
@@ -32,10 +48,11 @@ public class Principal {
         System.out.println("El modelo del electrodomestico es : "+electrodomesticos.modelo);
         System.out.println("");
         
-        //Clase Productos
-        var productos = new Productos();
-        productos.cantidadproducto="2 productos";
-        productos.nombrepoducto="Juego de Sala y centro de mesa";
+        //Clase Producto
+        var productos = new Producto();
+        productos.cantidadProducto="2 productos";
+        productos.nombreProducto="Juego de Sala y centro de mesa";
+        
         
         System.out.println("La cantidad de productos son :"+productos.cantidadproducto);
         System.out.println("El nombre de productos son :"+productos.nombrepoducto);
