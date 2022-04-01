@@ -10,7 +10,10 @@ package com.mycompany.poo.unidad01.cgmm.cvlga;
  */
 public class Proveedor {
     String direccion;
-    String nombreproveedor;
-    double percioproducto;
-    double precioenvio;
+    String nombreProveedor;
+    double percioProducto;
+    double precioEnvio;
+    String pecioEnvio;
+    String transporteProveedor;
+    
 }
