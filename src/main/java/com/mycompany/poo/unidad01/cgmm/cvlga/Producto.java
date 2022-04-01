@@ -10,9 +10,10 @@ import java.util.Date;
  *
  * @author HP USER
  */
-public class Productos {
-    String nombrepoducto;
-    Date fechaentrega;
-    Date Fechavencimiento;
-    String cantidadproducto;
+public class Producto {
+    String nombreProducto;
+    String fechaEntrega;
+    Date fechaVencimiento;
+    String cantidadProducto;
+    String numeroSerie;
 }

@@ -11,7 +11,7 @@ import java.util.Date;
  * @author HP USER
  */
 public class Transporte {
-    String tipo;
+    String valoracionConductor;
     String marcaVehiculo;
     String horaLlegada;
     String nombreConductor;
