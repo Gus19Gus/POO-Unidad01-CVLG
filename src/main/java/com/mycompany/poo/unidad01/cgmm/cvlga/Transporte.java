@@ -12,7 +12,7 @@ import java.util.Date;
  */
 public class Transporte {
     String tipo;
-    String marcavehiculo;
-    Date horallegada;
-    String nombreconductor;
+    String marcaVehiculo;
+    String horaLlegada;
+    String nombreConductor;
 }
