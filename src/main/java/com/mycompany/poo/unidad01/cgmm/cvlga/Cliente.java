@@ -11,6 +11,7 @@ package com.mycompany.poo.unidad01.cgmm.cvlga;
 public class Cliente {
     String nombres;
     String direccion;
-    long numeroDeCedula;
+    String numeroCedula;
     long numeroCelular;
+    String fechaCompra; 
 }
